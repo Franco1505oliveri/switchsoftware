@@ -1,0 +1,68 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ecf0f1;
+    background-image: url('../img/bg5.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor central */
+.contenedor-central {
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ecf0f1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #bdc3c7;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.boton-principal,
+.boton-secundario {
+    display: inline-block;
+    background-color: #27ae60; /* Color verde */
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-principal:hover, .boton-secundario:hover {
+    background-color: #1e8449;
+    transform: scale(1.05);
+}
+
+/* Estilo adicional para el segundo botón */
+.boton-secundario {
+    background-color: #3498db; /* Color azul */
+}
+
+.boton-secundario:hover {
+    background-color: #2980b9;
+}
