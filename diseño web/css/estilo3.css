@@ -1,0 +1,98 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* Fondo */
+    background-image: url('../img/bg6.jpg'); /* Asegúrate de ajustar la ruta si es necesario */
+    background-size: cover;      /* La imagen cubrirá toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;  /* Centra la imagen en la pantalla */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
+}
+
+/* Otros estilos permanecen igual */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(52, 73, 94, 0.8); /* Fondo semitransparente para ver el fondo */
+    color: #ecf0f1;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+/* Contenedor del equipo */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.member {
+    text-align: center;
+    width: 180px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste del tamaño de la imagen del miembro */
+.member img {
+    width: 100%;           /* Imagen ocupa el 100% del ancho del contenedor */
+    max-width: 120px;      /* Tamaño máximo de la imagen */
+    height: auto;          /* Mantener proporciones */
+    border-radius: 50%;
+    object-fit: cover;     /* Evita distorsión */
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #0068cf;
+}
+
+.member p {
+    color: #a4a4a4;
+    font-size: 0.9rem;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
